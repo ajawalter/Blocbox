@@ -42,7 +42,7 @@ p {
   min-height: 1px;
   margin:0 2% 20px;
 }
-@media (mid-width: 700px) {
+@media (min-width: 700px) {
   .container {
     width: 684px;
   }
