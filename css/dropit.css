@@ -58,3 +58,46 @@
    font-family: "Lato", Helvetica, Arial, sans-serif;
    font-weight:100;
   }
+
+  /* ACCOUNT SETTINGS - MENU */
+
+  .dropit.dropit-inverse {
+      list-style: none;
+      padding: 0;
+      margin: 3px 0 0;
+      float: right;
+      display: inline-block;
+  }
+  .dropit.dropit-inverse .dropit-submenu {
+      position: absolute;
+      top: -150px;
+      right: 0; /* dropdown left or right */
+      z-index: 1000;
+      display: none;
+      min-width: 145px;
+      list-style: none;
+      padding:10px;
+      margin: 5px 0 0;
+      bottom: 7px;
+  }
+  .dropit.dropit-inverse .dropit-open .dropit-submenu:after {
+      content: " ";
+      position: absolute;
+      border-style: solid;
+      border-width: 8px 8px 0;
+      border-color: #FFFFFF transparent;
+      display: block;
+      width: 0;
+      z-index: 1;
+      top: 138px;
+      right: 10px;
+   }
+    .dropit.dropit-inverse .dropit-open .dropit-submenu li {
+      display: block;
+      float: left;
+   }
+   .dropit.dropit-inverse .dropit-open .dropit-submenu {
+     display: block;
+      background: #FFFFFF;
+      box-shadow: 2px 4px 0px 0px rgba(0,0,0,0.30);
+      border-radius: 4px;
