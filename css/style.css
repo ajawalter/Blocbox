@@ -476,13 +476,6 @@ html, body{
    text-align: center;
    margin-right:8px;
  }
-/* Active Class assignment*/
-
- .left-nav .items ul li.active a {
-   color:#34495E;
-   background: #FFFFFF;
- }
-
 
 /* Left Navbar Settings */
 .left-nav .settings {
